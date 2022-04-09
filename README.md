@@ -1,15 +1,10 @@
-# weather-app
+# Weather App
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple weather app built with Vue.js that fetches weather from Open Weather Map.
 
-## Recommended IDE Setup
+![](assets/screenshot.jpg)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
+- 
 ## Project Setup
 
 ```sh
@@ -27,3 +22,8 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Acknowledgments
+Images: <br />
+Wes Hicks - https://unsplash.com/photos/G2W_8eagxNQ <br />
+Alessio Soggetti - https://unsplash.com/photos/PdGBci-4jR8
