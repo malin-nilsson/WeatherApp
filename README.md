@@ -5,6 +5,7 @@ A simple weather app built with Vue.js that fetches weather from Open Weather Ma
 ![](src/assets/screenshot-cold.jpg) ![](src/assets/screenshot-warm.jpg)
 
 ## Project Setup
+### Clone and install
 ```sh
 git clone https://github.com/malin-nilsson/WeatherApp
 ```
