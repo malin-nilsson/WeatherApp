@@ -3,6 +3,7 @@
       typeof weather.main != 'undefined' && weather.main.temp > 16 ? 'warm' : ''
     ">
     <main>
+       <!-- Logo container -->
       <div class="logo-container">
         <img src="/logo.png" alt="Logo">
       </div>
@@ -119,7 +120,7 @@
     background-image: url("./assets/cold-bg.jpg");
     background-size: cover;
     background-position: bottom;
-    transition: 0.4s;
+    transition: 0.2s;
   }
 
   #app.warm {
@@ -195,10 +196,6 @@
         font-style: italic;
         text-align: center;
       }
-    }
-
-    .weather-wrap {
-      position: relative;
     }
 
     .author {
