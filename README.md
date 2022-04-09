@@ -2,7 +2,7 @@
 
 A simple weather app built with Vue.js that fetches weather from Open Weather Map.
 
-![](assets/screenshot.jpg)
+![](src/assets/screenshot-cold.jpg) ![](src/assets/screenshot-warm.jpg)
 
 - 
 ## Project Setup
