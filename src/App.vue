@@ -4,7 +4,7 @@
     ">
     <main>
       <div class="logo-container">
-        <img src="../public/logo.png" alt="Logo">
+        <img src="/logo.png" alt="Logo">
       </div>
       <!-- Search bar -->
       <div class="search-box">
@@ -22,16 +22,15 @@
 
         <div class="weather-box">
           <div class="temp">{{ Math.round(weather.main.temp) }}°c</div>
-          <div class="weather">{{ weather.weather[0].main }}</div>
+          <div class="weather">{{ weather.weather[0].main }} </div>
         </div>
       </div>
       <div class="author">
         <span>© Malin Nilsson 2022</span>
-        <span>View the project on <a href="https://github.com/malin-nilsson/WeatherApp" target="_blank">Github</a></span>
+        <span>View the project on <a href="https://github.com/malin-nilsson/WeatherApp"
+            target="_blank">Github</a></span>
       </div>
     </main>
-
-
   </div>
 </template>
 
@@ -209,18 +208,17 @@
       text-align: center;
       padding: 10px;
       font-weight: 300;
-  }
+    }
 
     .author span {
       display: block;
-        color: rgb(198, 198, 198);
-        font-size: 0.75rem;
-      }
+      color: rgb(198, 198, 198);
+      font-size: 0.75rem;
+    }
 
-      .author a {
-        color: #fff;
-      }
-  
+    .author a {
+      color: #fff;
+    }
 
     .weather-box {
       text-align: center;
