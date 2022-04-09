@@ -2,6 +2,7 @@
 
 A simple weather app built with Vue.js that fetches weather from Open Weather Map.
 
+![](src/assets/weather-app-iPhone12.png) 
 
 ## Project Setup
 ### Clone and install
