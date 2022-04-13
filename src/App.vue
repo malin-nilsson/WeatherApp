@@ -3,10 +3,6 @@
       typeof weather.main != 'undefined' && weather.main.temp > 16 ? 'warm' : ''
     ">
     <main>
-       <!-- Logo container -->
-      <div class="logo-container">
-        <img src="/logo.png" alt="Logo">
-      </div>
       <!-- Search bar -->
       <div class="search-box">
         <input type="text" class="search-bar" placeholder="Search..." v-model="query" @keypress="fetchWeather" />
@@ -132,7 +128,7 @@
 
   main {
     min-height: 100vh;
-    padding: 20px 25px;
+    padding: 60px 25px;
     background-image: linear-gradient(to bottom,
         rgba(0, 0, 0, 0.25),
         rgba(0, 0, 0, 0.75));
@@ -170,9 +166,14 @@
     }
 
     .logo-container {
-      max-width: 230px;
-      margin: 0 auto;
-      padding: 0px 20px 20px;
+      max-width: 130px;
+      padding: 0px 0px 20px;
+
+      @media screen and (min-width: 768px) {
+        max-width: 230px;
+        margin: 0 auto;
+        padding: 0px 20px 20px;
+      }
 
       img {
         width: 100%;
