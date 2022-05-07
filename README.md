@@ -1,6 +1,9 @@
 # Weather App
 
-A simple weather app built with Vue.js that fetches weather from Open Weather Map.
+A simple weather app built with Vue.js that fetches weather from Open Weather Map. 
+
+This was my first time building a project using Vue and I'm obsessed with it now. I chose to use the options API because the syntax looked a bit simpler as a beginner. For my next Vue project, I plan on trying out the composition API.
+
 
 ![](./src/assets/iPhone-screenshot.png)
 
@@ -25,9 +28,6 @@ npm run dev
 ```sh
 npm run build
 ```
-
-### Details
-This was my first time building a project using Vue and I'm obsessed with it now. I chose to use the options API because the syntax looked a bit simpler as a beginner. For my next Vue project, I plan on trying out the composition API.
 
 ### Acknowledgments
 Images: <br />
