@@ -21,6 +21,7 @@
       <div class="weather-wrap" v-if="typeof weather.main != 'undefined'">
         <div class="location-box">
           <div class="location">
+            <h1>Current weather in</h1>
             {{ weather.name }}, {{ weather.sys.country }}
           </div>
           <div class="date">{{ dateBuilder() }}</div>
@@ -196,6 +197,11 @@ main {
     }
   }
 
+  h1 {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+
   .location-box {
     .location {
       color: #fff;
@@ -227,6 +233,7 @@ main {
     display: block;
     color: rgb(198, 198, 198);
     font-size: 0.75rem;
+    line-height: 1rem;
   }
 
   .author a {
