@@ -1,32 +1,24 @@
-# Weather App
+# weather-app
 
-A simple weather app built with Vue.js that fetches weather from Open Weather Map.
-
-## Project Setup
-### Clone and install
-```sh
-git clone https://github.com/malin-nilsson/WeatherApp
+## Project setup
 ```
-
-```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
+### Compiles and hot-reloads for development
+```
+npm run serve
 ```
 
-### Compile and Minify for Production
-
-```sh
+### Compiles and minifies for production
+```
 npm run build
 ```
 
-### Details
+### Lints and fixes files
+```
+npm run lint
+```
 
-### Acknowledgments
-Images: <br />
-Wes Hicks - https://unsplash.com/photos/G2W_8eagxNQ <br />
-Alessio Soggetti - https://unsplash.com/photos/PdGBci-4jR8
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
