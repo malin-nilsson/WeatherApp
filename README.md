@@ -7,33 +7,23 @@ This was my first time building a project using Vue and I'm obsessed with it now
 
 ![](./src/assets/iPhone-screenshot.png)
 
-## Project Setup
-### Clone and install
-```sh
-git clone https://github.com/malin-nilsson/WeatherApp
-```
-npm install
-```
+## Installation
+1. Clone the repo\
+`git clone https://github.com/malin-nilsson/WeatherApp`
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+2. Install npm packages\
+`npm install`
 
-### Compiles and minifies for production
-```
-npm run build
-```
+3. Run Vue\
+`npm run serve`
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
+## Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-### Acknowledgments
-Images: <br />
-Wes Hicks - https://unsplash.com/photos/G2W_8eagxNQ <br />
+## Acknowledgments
+Images:
+Wes Hicks - https://unsplash.com/photos/G2W_8eagxNQ
 Alessio Soggetti - https://unsplash.com/photos/PdGBci-4jR8
+
+## Author
+- GitHub - [malin-nilsson](https://github.com/malin-nilsson)
