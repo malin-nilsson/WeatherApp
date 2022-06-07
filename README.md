@@ -17,6 +17,8 @@ This was my first time building a project using Vue and I'm obsessed with it now
 3. Run Vue\
 `npm run serve`
 
+Visit localhost:8080 to view the project
+
 ## Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
